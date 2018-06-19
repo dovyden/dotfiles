@@ -6,3 +6,10 @@ alias df='df -h'
 alias ls='ls -hGF'
 alias ll='ls -l'
 alias la='ll -a'
+
+alias mkdir='mkdir -p'
+
+alias cp='cp -i'
+alias ln='ln -i'
+alias mv='mv -i'
+alias rm='rm -i'
