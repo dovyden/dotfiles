@@ -1,0 +1,8 @@
+alias ..='cd ..;'
+alias ...='.. ..'
+
+alias df='df -h'
+
+alias ls='ls -hGF'
+alias ll='ls -l'
+alias la='ll -a'

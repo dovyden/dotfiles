@@ -1,0 +1,9 @@
+# git completion from `command line tools`
+. /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash
+
+# completion for brew apps
+for FILE in $(brew --prefix)/etc/bash_completion.d/*; do
+    if [[ -f "$FILE" && -r "$FILE" ]]; then
+        . $FILE
+    fi
+done
