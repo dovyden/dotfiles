@@ -7,3 +7,6 @@ for FILE in $(brew --prefix)/etc/bash_completion.d/*; do
         . $FILE
     fi
 done
+
+# aliases
+source ~/.dotfiles/bash/aliases
