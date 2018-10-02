@@ -8,6 +8,11 @@ for FILE in $(brew --prefix)/etc/bash_completion.d/*; do
     fi
 done
 
+# composer (from brew)
+if [ ! -z "$(which composer)" ]; then
+    export PATH="$PATH:$HOME/.composer/vendor/bin"
+fi
+
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
 

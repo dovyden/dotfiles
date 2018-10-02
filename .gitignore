@@ -9,3 +9,6 @@ Thumbs.db
 # idea & vscode
 .idea/
 .vscode/
+
+# project
+test.sh
