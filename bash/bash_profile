@@ -1,6 +1,3 @@
-# git completion from `command line tools`
-source /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash
-
 # app completions (from brew)
 for FILE in $(brew --prefix)/etc/bash_completion.d/*; do
     if [[ -f "$FILE" && -r "$FILE" ]]; then
