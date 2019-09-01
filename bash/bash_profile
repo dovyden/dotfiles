@@ -1,9 +1,16 @@
+BREW_PREFIX=$(brew --prefix)
+
 # app completions (from brew)
-for FILE in $(brew --prefix)/etc/bash_completion.d/*; do
+for FILE in $BREW_PREFIX/etc/bash_completion.d/*; do
     if [[ -f "$FILE" && -r "$FILE" ]]; then
         source $FILE
     fi
 done
+
+# brew
+if [ -d "$BREW_PREFIX/sbin" ]; then
+    export PATH="$BREW_PREFIX/sbin:$PATH"
+fi
 
 # composer (from brew)
 if [ ! -z "$(which composer)" ]; then
@@ -11,7 +18,7 @@ if [ ! -z "$(which composer)" ]; then
 fi
 
 # rust
-export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$PATH:$HOME/.cargo/bin"
 
 # nvm (from brew)
 export NVM_DIR="$HOME/.nvm"
