@@ -1,0 +1,13 @@
+# brew ls --installed-on-request
+
+ffmpeg
+fish
+fisher
+neovim
+node
+nvm
+python-setuptools
+ripgrep
+tree
+yarn
+yt-dlp
