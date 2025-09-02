@@ -1,4 +1,4 @@
-# os x
+# macos
 .DS_Store
 .DS_Store?
 .*DS_Store*
@@ -9,6 +9,3 @@ Thumbs.db
 # idea & vscode
 .idea/
 .vscode/
-
-# project
-test.sh

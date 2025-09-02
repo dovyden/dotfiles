@@ -1,13 +1,33 @@
 # brew ls --installed-on-request
 
-ffmpeg
+# shell
 fish
 fisher
+fzf
 neovim
+ripgrep
+sevenzip
+tree
+
+# docker
+colima
+docker
+docker-compose
+
+# langs
+go
+python
+rust
+
+# node
 node
 nvm
-python-setuptools
-ripgrep
-tree
+pnpm
 yarn
+
+# video
+ffmpeg
 yt-dlp
+
+# plantuml
+graphviz

@@ -1,0 +1,12 @@
+[user]
+	name = dovyden
+	email = dovyden@gmail.com
+
+[core]
+	autocrlf = input
+
+[color]
+	ui = auto
+  branch = auto
+  diff = auto
+  status = auto
